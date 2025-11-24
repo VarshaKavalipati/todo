@@ -18,7 +18,7 @@ import com.app.todo.service.TodoService;
 
 @RestController
 @RequestMapping("/api/todo")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://todo-frontend-chi-hazel.vercel.app")
 public class TodoController {
 
 	private final TodoService service;
